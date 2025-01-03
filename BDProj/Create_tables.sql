@@ -1,12 +1,4 @@
--- Cria��o do banco de dados e uso do banco UGANDAKnuckles
-CREATE DATABASE UGANDAKnuckles;
-GO
-USE UGANDAKnuckles;
-GO
-
-
-
-_________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________
 -- Tabela tblPrioridade: Define as prioridades associadas aos utilizadores
 CREATE TABLE tblPrioridade (
     PrioID INT IDENTITY(1,1) PRIMARY KEY, -- ID único para a prioridade
